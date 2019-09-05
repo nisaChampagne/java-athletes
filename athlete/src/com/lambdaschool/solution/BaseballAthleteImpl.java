@@ -3,8 +3,8 @@ package com.lambdaschool.solution;
 public class BaseballAthleteImpl implements AthleteService
 {
     @Override
-    public void displayAthlete(String athlete)
+    public void displayAthlete()
     {
-        System.out.println(athlete);
+        System.out.println("Baseball Athlete");
     }
 }
