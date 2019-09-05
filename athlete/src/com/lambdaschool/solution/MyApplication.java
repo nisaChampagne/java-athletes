@@ -13,10 +13,9 @@ public class MyApplication implements Processor
     }
 
     @Override
-    public void displayAthlete(String athlete)
-    {
+    public void displayAthlete() {
         System.out.println("********");
-        athleteSrv.displayAthlete(athlete);
+        athleteSrv.displayAthlete();
         System.out.println("********");
     }
 }
